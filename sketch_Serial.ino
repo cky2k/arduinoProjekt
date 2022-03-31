@@ -33,5 +33,5 @@ void textAusgabe2(void)
 {
   Serial.println("fertig los!");
 
-  delay(1000);
+  delay(2000);
 }
