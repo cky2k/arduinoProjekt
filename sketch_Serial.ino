@@ -1,3 +1,6 @@
+
+void textAusgabe1(void);
+
 void setup() {
   // put your setup code here, to run once:
 
@@ -12,4 +15,13 @@ void loop() {
   Serial.println("Hello World!");
 
   delay(2000);
+
+  textAusgabe1();
+}
+
+void textAusgabe1(void)
+{
+  Serial.println("Auf die Plätze");
+
+  delay(1000);
 }
