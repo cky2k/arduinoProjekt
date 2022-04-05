@@ -26,7 +26,7 @@ void textAusgabe1(void)
 {
   Serial.println("Auf die Plätze");
 
-  delay(5000);
+  delay(3000);
 }
 
 void textAusgabe2(void)
