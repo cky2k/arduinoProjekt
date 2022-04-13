@@ -6,7 +6,7 @@ void setup() {
   // put your setup code here, to run once:
 
   Serial.begin(115000);
-
+  
   delay(5000);
 }
 
@@ -16,7 +16,7 @@ void loop() {
   Serial.println("Hello World!");
 
   delay(2000);
-
+  // Neuer Kommentar
   textAusgabe1();
 
   textAusgabe2();
